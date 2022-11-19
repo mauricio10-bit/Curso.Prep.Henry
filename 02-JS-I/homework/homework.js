@@ -77,7 +77,9 @@ function tienenMismaLongitud(str1, str2) {
   // Devuelve "true" si las dos strings tienen la misma longitud
   // De lo contrario, devuelve "false"
   // Tu código:
-  if (str1.toString().length == str2.toString().length) {
+  let string1 = ""
+  let string2 = ""
+  if (str1.length == str2.length) {
     return true
   } else {
     return false
