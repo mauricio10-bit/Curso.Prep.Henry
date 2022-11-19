@@ -21,7 +21,7 @@ function mayoriaDeEdad(edad) {
     return "Not allowed";
   }
 }
-  
+
 function conection(status) {
   //Recibimos un estado de conexión de un usuario representado por un valor numérico. 
   //Cuando el estado es igual a 1, el usuario está "Online"
@@ -30,10 +30,10 @@ function conection(status) {
   //Devolver el estado de conexión de usuario en cada uno de los casos.
   if (status == 1) {
     return "Online";
-  }else{
+  } else {
     if (status == 2) {
       return "Away";
-    }else{
+    } else {
       return "Offline";
     }
   }
@@ -71,12 +71,12 @@ function colors(color) {
   switch (color) {
     case "blue":
       return "This is blue";
-      case "red":
-        return "This is red";
-        case "green":
+    case "red":
+      return "This is red";
+    case "green":
       return "This is green";
-      case "orange":
-        return "This is orange";  
+    case "orange":
+      return "This is orange";
     default:
       return "Color not found";
       break;
@@ -113,7 +113,7 @@ function esEntero(numero) {
   // De lo contrario, devuelve "false"
   // Pista: Puedes resolver esto usando `Math.floor`
   // Tu código:
-  
+
   if (numero === Math.floor(numero)) {
     return true;
   } else {
@@ -131,7 +131,7 @@ function fizzBuzz(numero) {
   } else {
     if (numero % 3 === 0) {
       return "fizz"
-    }else{
+    } else {
       if (numero % 5 === 0) {
         return "buzz"
       }
@@ -156,7 +156,7 @@ function operadoresLogicos(num1, num2, num3) {
       if (num3 > num1 && num3 > num2) {
         num3 = num3 + 1
         return num3
-      }else{
+      } else {
         if (num1 > num2 && num1 > num3 && num1 > 0) {
           return "Número 1 es mayor y positivo"
         }
@@ -183,7 +183,7 @@ function esPrimo(numero) {
   return true
 }
 
-function esVerdadero(valor){
+function esVerdadero(valor) {
   //Escribe una función que reciba un valor booleano y retorne “Soy verdadero” 
   //si su valor es true y “Soy falso” si su valor es false.
   //Escribe tu código aquí
@@ -196,21 +196,21 @@ function esVerdadero(valor){
   }
 }
 
-function tablaDelSeis(){
+function tablaDelSeis() {
   //Escribe una función que muestre la tabla de multiplicar del 6 (del 0 al 60).
   //La función devuelve un array con los resultados de la tabla de multiplicar del 6 en orden creciente.
   //Escribe tu código aquí   
-  
+
 }
 
-function tieneTresDigitos(numero){
+function tieneTresDigitos(numero) {
   //Leer un número entero y retornar true si tiene 3 dígitos. Caso contrario, retorna false.
   //Escribe tu código aquí
- if (numero.lengt == 3) {
-  return true
- } else {
-  return false
- }
+  if (numero.lengt == 3) {
+    return true
+  } else {
+    return false
+  }
 }
 
 function doWhile(numero) {
