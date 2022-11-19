@@ -185,7 +185,7 @@ describe ('tablaDelSeis()', function() {
   });
 });
 
-xdescribe ('tieneTresDigitos(numero)', function() {
+describe ('tieneTresDigitos(numero)', function() {
   it('should return true if numero has 3 digits', function() {
     expect(tieneTresDigitos(100)).toBe(true);
     expect(tieneTresDigitos(820)).toBe(true);
@@ -195,7 +195,7 @@ xdescribe ('tieneTresDigitos(numero)', function() {
   });
 });
 
-xdescribe('doWhile(numero)', function() {
+describe('doWhile(numero)', function() {
   it('should add 5 to number until reaching a limit of 8 times and return the sum value', function() {
     expect(doWhile(5)).toBe(45);
     expect(doWhile(100)).toBe(140);
