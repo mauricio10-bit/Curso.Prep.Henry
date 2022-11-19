@@ -158,7 +158,7 @@ function operadoresLogicos(num1, num2, num3) {
      } 
     }
   }
-  return false;
+  return false
 }
 
 function esPrimo(numero) {
