@@ -29,7 +29,7 @@ function devolverString(str) {
   // "Return" la string provista: str
   // Tu código:
   let string = "";
-  return string;
+  return str;
 }
 
 
