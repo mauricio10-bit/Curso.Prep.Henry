@@ -105,8 +105,7 @@ function mayorQueCincuenta(num) {
 function obtenerResto(x, y) {
   // Obten el resto de la división de "x" entre "y"
   // Tu código:
-  var obt = x % y;
-  return obt;
+  return x % y;
 }
 
 function esPar(num) {
@@ -135,15 +134,13 @@ function elevarAlCuadrado(num) {
   // Devuelve el valor de "num" elevado al cuadrado
   // ojo: No es raiz cuadrada!
   // Tu código:
-  var rs = num * num;
-  return rs;
+  return num * num;
 }
 
 function elevarAlCubo(num) {
   // Devuelve el valor de "num" elevado al cubo
   // Tu código:
-  var rs = num * num * num;
-  return rs;
+  return num * num * num;
 }
 
 function elevar(num, exponent) {
